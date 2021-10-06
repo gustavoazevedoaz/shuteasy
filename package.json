@@ -1,0 +1,19 @@
+{
+    "name": "shuteasy",
+    "version": "1.0.0",
+    "description": "Um simples assistente para agendar o desligamento do computador.",
+    "main": "./bin/index.js",
+    "bin": {
+        "shuteasy": "./bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Gustavo Rocha",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "gulog": "^1.1.0",
+        "inquirer": "^8.1.4"
+    }
+}
